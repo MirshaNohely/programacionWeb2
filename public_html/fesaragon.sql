@@ -13,7 +13,7 @@ CREATE TABLE  `persona`(
 `direccion` text not null,
 `telefono` varchar (8) not null,
 `email` text not null,
-`password` varchar (8) not null,
+`password` varchar (12) not null,
 `fecha_registro` datetime not null default current_timestamp,
 `permisos` int (11) not null default '2'
 )engine=Innodb default charset=utf8;
